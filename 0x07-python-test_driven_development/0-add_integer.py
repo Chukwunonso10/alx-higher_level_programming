@@ -10,7 +10,7 @@ You are not allowed to import any module
 
 def add_integer(a, b=98):
     if not isinstance(a,(int, float)):
-        print("a must be an integer")
+        raise TypeError("a must be an integer")
     elif not isinstance(b, (int, float):
-            print("b must be an integer")
+            raise TypeError("b must be an integer")
     return int(a) +int(b) 
